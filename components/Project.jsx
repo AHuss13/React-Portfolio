@@ -1,5 +1,8 @@
-import firstPic from "../src/assets/Horiseon.png";
+import horiseonImg from "../src/assets/Horiseon.png";
 import passwordGen from "../src/assets/PasswordGen.png";
+import textEditor from "../src/assets/TextEditor.png";
+import timedQuiz from "../src/assets/TimedQuiz.png";
+import dayScheduler from "../src/assets/DayScheduler.png";
 
 const Card = ({ href, imgSrc, footerText, imgId }) => (
   <div className="card">
@@ -22,15 +25,33 @@ const Project = () => (
     <div className="work">
       <Card
         href="https://ahuss13.github.io/Horiseon-Challenge/"
-        imgSrc={firstPic}
+        imgSrc={horiseonImg}
         footerText="Accessibility Refactor"
-        imgId="firstpic"
+        imgId="horiseon"
       />
       <Card
         href="https://ahuss13.github.io/Password-Generator-Challenge/"
         imgSrc={passwordGen}
         footerText="Password Generator"
         imgId="passwordgen"
+      />
+      <Card
+        href="https://txteditor-f38f2536ed69.herokuapp.com/"
+        imgSrc={textEditor}
+        footerText="Text Editor"
+        imgId="texteditor"
+      />
+      <Card
+        href="https://ahuss13.github.io/JavaScript-Quiz-Challenge/"
+        imgSrc={timedQuiz}
+        footerText="Timed Quiz"
+        imgId="timedquiz"
+      />
+            <Card
+        href="https://ahuss13.github.io/JavaScript-Quiz-Challenge/"
+        imgSrc={dayScheduler}
+        footerText="Day Scheduler"
+        imgId="dayscheduler"
       />
     </div>
   </section>
