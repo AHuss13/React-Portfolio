@@ -45,10 +45,6 @@ footer {
   width: 100%
 }
 
-.work {
-  display: flex;
-  flex: 2 2;
-}
 
 div {
   display: flex;
@@ -64,8 +60,8 @@ div {
   border: 2px solid black;
 }
 
-#firstpic {
-  max-width: 55vw;
+#horiseon {
+  max-width: 50vw;
   width: auto;
   height: auto;
 }
@@ -79,27 +75,8 @@ label {
   text-align: center;
 }
 
-card {
-  padding: 20px;
-  text-decoration: none;
-}
-
 a {
   text-decoration: none;
-}
-
-card footer {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  background: radial-gradient(
-    closest-side,
-    rgb(150, 150, 150),
-    rgb(0, 0, 200),
-    black
-  );
-  border: grey;
-  border-width: 20px;
-  border-radius: 10px;
 }
 
 @media (max-width: 380px) {
