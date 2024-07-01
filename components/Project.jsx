@@ -48,7 +48,7 @@ const Project = () => (
         imgId="timedquiz"
       />
             <Card
-        href="https://ahuss13.github.io/JavaScript-Quiz-Challenge/"
+        href="https://ahuss13.github.io/Day-Scheduler-Challenge/"
         imgSrc={dayScheduler}
         footerText="Day Scheduler"
         imgId="dayscheduler"
