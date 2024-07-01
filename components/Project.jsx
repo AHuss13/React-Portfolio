@@ -36,7 +36,7 @@ const Project = () => (
         imgId="passwordgen"
       />
       <Card
-        href="https://txteditor-f38f2536ed69.herokuapp.com/"
+        href="https://pwa-text-editor-m2rz.onrender.com/"
         imgSrc={textEditor}
         footerText="Text Editor"
         imgId="texteditor"
