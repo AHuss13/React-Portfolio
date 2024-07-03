@@ -1,8 +1,8 @@
-import horiseonImg from "../src/assets/Horiseon.png";
-import passwordGen from "../src/assets/PasswordGen.png";
-import textEditor from "../src/assets/TextEditor.png";
-import timedQuiz from "../src/assets/TimedQuiz.png";
-import dayScheduler from "../src/assets/DayScheduler.png";
+import horiseonImg from "/src/assets/Horiseon.png";
+import passwordGen from "/src/assets/PasswordGen.png";
+import textEditor from "/src/assets/TextEditor.png";
+import timedQuiz from "/src/assets/TimedQuiz.png";
+import dayScheduler from "/src/assets/DayScheduler.png";
 
 const Card = ({ href, imgSrc, footerText, imgId }) => (
   <div className="card">
@@ -47,7 +47,7 @@ const Project = () => (
         footerText="Timed Quiz"
         imgId="timedquiz"
       />
-            <Card
+      <Card
         href="https://ahuss13.github.io/Day-Scheduler-Challenge/"
         imgSrc={dayScheduler}
         footerText="Day Scheduler"
