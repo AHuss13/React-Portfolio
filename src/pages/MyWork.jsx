@@ -1,4 +1,3 @@
-import horiseonImg from "/src/assets/Horiseon.png";
 import passwordGen from "/src/assets/PasswordGen.png";
 import textEditor from "/src/assets/TextEditor.png";
 import timedQuiz from "/src/assets/TimedQuiz.png";
@@ -24,17 +23,17 @@ const Project = () => (
     </p>
     <div className="work">
       <Card
-        href="https://ahuss13.github.io/Horiseon-Challenge/"
-        imgSrc={horiseonImg}
-        footerText="Accessibility Refactor"
-        imgId="horiseon"
-      />
-      <Card
         href="https://ahuss13.github.io/Password-Generator-Challenge/"
         imgSrc={passwordGen}
         footerText="Password Generator"
         imgId="passwordgen"
       />
+        <Card
+          href="https://ahuss13.github.io/Day-Scheduler-Challenge/"
+          imgSrc={dayScheduler}
+          footerText="Day Scheduler"
+          imgId="dayscheduler"
+        />
       <Card
         href="https://pwa-text-editor-m2rz.onrender.com/"
         imgSrc={textEditor}
@@ -47,12 +46,12 @@ const Project = () => (
         footerText="Timed Quiz"
         imgId="timedquiz"
       />
-      <Card
-        href="https://ahuss13.github.io/Day-Scheduler-Challenge/"
-        imgSrc={dayScheduler}
-        footerText="Day Scheduler"
-        imgId="dayscheduler"
-      />
+      {/* <Card
+        href="https://note-taker-gyxp.onrender.com"
+        imgSrc={noteTaker}
+        footerText="Note Taker"
+        imgId="noteTaker"
+      /> */}
     </div>
   </section>
 );
