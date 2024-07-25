@@ -59,10 +59,10 @@ div {
   border: 2px solid black;
 }
 
-#horiseon {
-  max-width: 50vw;
-  width: auto;
-  height: auto;
+#passwordgen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #passwordgen {
@@ -82,4 +82,9 @@ a {
   card footer {
     font-size: 12px;
   }
+}
+
+#pageinprogress {
+  color: red;
+  font-size: 30px;
 }
