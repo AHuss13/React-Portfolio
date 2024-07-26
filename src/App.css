@@ -59,15 +59,6 @@ div {
   border: 2px solid black;
 }
 
-#passwordgen {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-#passwordgen {
-  max-width: 40vw;
-}
 
 label {
   padding: 10px;
@@ -87,4 +78,28 @@ a {
 #pageinprogress {
   color: red;
   font-size: 30px;
+}
+
+#texteditor {
+  max-width: 40vw;
+}
+
+#passwordgen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 40vw;
+}
+
+#passwordgen div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#dayscheduler {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 40vw;
 }
