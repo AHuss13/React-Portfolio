@@ -59,15 +59,6 @@ div {
   border: 2px solid black;
 }
 
-#horiseon {
-  max-width: 50vw;
-  width: auto;
-  height: auto;
-}
-
-#passwordgen {
-  max-width: 40vw;
-}
 
 label {
   padding: 10px;
@@ -82,4 +73,33 @@ a {
   card footer {
     font-size: 12px;
   }
+}
+
+#pageinprogress {
+  color: red;
+  font-size: 30px;
+}
+
+#texteditor {
+  max-width: 40vw;
+}
+
+#passwordgen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 40vw;
+}
+
+#passwordgen div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#dayscheduler {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 40vw;
 }
