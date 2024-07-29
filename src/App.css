@@ -80,10 +80,6 @@ a {
   font-size: 30px;
 }
 
-#texteditor {
-  max-width: 40vw;
-}
-
 #passwordgen {
   display: flex;
   justify-content: center;

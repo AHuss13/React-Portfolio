@@ -1,7 +1,7 @@
 import passwordGen from "/src/assets/PasswordGen.png";
-import textEditor from "/src/assets/TextEditor.png";
 import timedQuiz from "/src/assets/TimedQuiz.png";
 import dayScheduler from "/src/assets/DayScheduler.png";
+import noteTaker from "/src/assets/NoteTaker.png";
 
 const Card = ({ href, imgSrc, footerText, imgId }) => (
   <div className="card">
@@ -35,23 +35,17 @@ const Project = () => (
           imgId="dayscheduler"
         />
       <Card
-        href="https://pwa-text-editor-m2rz.onrender.com/"
-        imgSrc={textEditor}
-        footerText="Text Editor"
-        imgId="texteditor"
-      />
-      <Card
         href="https://ahuss13.github.io/JavaScript-Quiz-Challenge/"
         imgSrc={timedQuiz}
         footerText="Timed Quiz"
         imgId="timedquiz"
       />
-      {/* <Card
+      <Card
         href="https://note-taker-gyxp.onrender.com"
         imgSrc={noteTaker}
         footerText="Note Taker"
         imgId="noteTaker"
-      /> */}
+      />
     </div>
   </section>
 );
